@@ -1,0 +1,46 @@
+
+button{
+    margin-left: 90px;
+    cursor: pointer;
+}
+
+button#button1{
+    margin-left: 35px;
+}
+
+button.off{
+    background-color: #C46F6F;
+}
+
+button.on{
+    background-color: #04d550;
+}
+
+button.off:hover{
+    background-color: #A74F7F;
+}
+
+button.on:hover{
+    background-color: #34e580;
+}
+
+img{
+    width: 10%;
+}
+
+#winner{
+    font-size: 25px;
+    color: green;
+    font-family: 'Play', sans-serif;
+}
+
+button#reset{
+    background-color: #ff9800; /* Orange */
+}
+    
+button#reset:hover {
+    background: #e68a00;
+}
+
+
+

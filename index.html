@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang = "en">
+    <head>
+        <title>My js light game</title>
+        <link rel="stylesheet" type="text/css" href="style.css" />
+        <link href="https://fonts.googleapis.com/css?family=Dokdo|Roboto" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css?family=Play" rel="stylesheet">
+        <script src="script.js"></script>
+    </head>
+    <body>
+        <div id = "lights">
+            <img id = "light1"  class = "off"  src="lightOff.png" alt = "a light">
+            <img id = "light2"  class = "off"  src="lightOff.png" alt = "a light">
+            <img id = "light3"  class = "off" src="lightOff.png" alt = "a light">
+            <img id = "light4"  class = "off" src="lightOff.png" alt = "a light">
+            <img id = "light5"  class = "off" src="lightOff.png" alt = "a light">
+        </div>
+        <br>
+        <div id = "buttons">
+            <button  id = "button1" class = "switch off" onclick="buttonClicked(this.id)"  >switch 1 </button>
+            <button id = "button2" class = "switch off" onclick="buttonClicked(this.id)">switch 2 </button>
+            <button id = "button3" class = "switch off"  onclick="buttonClicked(this.id)">switch 3 </button>
+            <button id = "button4" class = "switch off"  onclick="buttonClicked(this.id)">switch 4 </button>
+            <button id = "button5" class = "switch off"  onclick="buttonClicked(this.id)">switch 5 </button>
+            <button id = "reset">reset </button>
+        </div>
+        <br>
+        <div id = "info">You have <span id = "numOn">0</span> <span id = "singular">lights</span> on</div>
+        <br>
+        <div id = "winner"></div>
+    </body>
+</html>
